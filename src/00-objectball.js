@@ -147,3 +147,18 @@ function teamColors(teamName) {
     }
 }
 console.log(teamColors("Charlotte Hornets"));
+
+function teamNames(){
+    let object = gameObject();
+    //let nameArray = object["home"]["teamName"], object["away"]["teamName"]
+    return [object["home"]["teamName"], object["away"]["teamName"]]
+    //return nameArray;
+}
+console.log(teamNames());
+
+function playerNumbers(teamName){
+    let object = gameObject();
+    let jerseyNumbers = [];
+    for (let number in object["home"]["players"]){
+    }
+}
